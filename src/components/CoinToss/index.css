@@ -1,0 +1,94 @@
+/* Write your CSS here */
+.bg-container {
+  padding-top: 30px;
+  background-image: radial-gradient(yellow, orange);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 40%;
+  height: 90%;
+}
+
+.heading {
+  text-align: center;
+  color: #a35200;
+}
+
+.paragraph {
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toss-img {
+  width: 200px;
+  height: 200px;
+}
+
+.btn-style {
+  color: #ffffff;
+  background-color: #015b69;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  border-width: 5px;
+  border-color: gold;
+  border-radius: 15px;
+  cursor: pointer;
+  outline: none;
+  width: 200px;
+}
+
+.count-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.total {
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: green;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+}
+
+.heads {
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+}
+
+.tails {
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: red;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+}
